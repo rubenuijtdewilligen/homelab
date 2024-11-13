@@ -1,0 +1,24 @@
+# https://github.com/archef2000/pivpn-docker
+
+services:
+  wireguard:
+    image: archef2000/pivpn:latest
+    container_name: pivpn
+    hostname: pivpn
+    ports:
+      - 51820:51820/udp
+    volumes:
+      - ./wireguard/configs:/home/pivpn/configs
+      - ./wireguard/wireguard:/etc/wireguard
+    environment:
+      - HOST=
+      - VPN=wireguard
+      - PORT=51820
+      - CLIENT_NAME=pivpn
+      - NET=10.8.0.0
+      - DNS1=1.1.1.1
+      - DNS2=1.0.0.1
+    cap_add:
+      - NET_ADMIN
+      - SYS_MODULE
+    restart: always
