@@ -21,7 +21,3 @@ kimai.c.rbnu.nl {
 wakapi.c.rbnu.nl {
     reverse_proxy 192.168.1.16:3003
 }
-
-dockge.c.rbnu.nl {
-    reverse_proxy 192.168.1.16:5001
-}
