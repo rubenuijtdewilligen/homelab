@@ -9,6 +9,7 @@ services:
       - ADMIN_USERNAME=${ADMIN_USERNAME}
       - ADMIN_PASSWORD=${ADMIN_PASSWORD}
       - PUBLIC_ADD_VIEW=False
+      - BASE_URL=https://archivebox.c.rbnu.nl
     volumes:
       - ./data:/data
       - tmp:/tmp/archivebox
