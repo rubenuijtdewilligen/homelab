@@ -1,0 +1,15 @@
+# Ignore environment files
+.env
+*.env
+
+# Ignore data and config directories
+*/data/
+*/caddy_data/
+*/caddy_config/
+*/site/
+
+# Ignore OS files
+.DS_Store
+
+# Repomix output
+repomix-output.xml
