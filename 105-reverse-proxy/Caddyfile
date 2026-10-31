@@ -13,3 +13,7 @@ paperless.c.rbnu.nl {
 pdf.c.rbnu.nl {
     reverse_proxy 192.168.1.16:8080
 }
+
+kimai.c.rbnu.nl {
+    reverse_proxy 192.168.1.16:8001
+}
