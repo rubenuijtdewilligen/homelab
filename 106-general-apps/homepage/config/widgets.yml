@@ -1,0 +1,9 @@
+- datetime:
+    format:
+      timeStyle: short
+      dateStyle: full
+- resources:
+    cpu: true
+    memory: true
+    disk: /
+    units: metric

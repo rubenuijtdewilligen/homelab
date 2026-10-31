@@ -1,0 +1,31 @@
+- Homelab:
+    - Paperless-ngx:
+        icon: paperless-ngx.png
+        href: https://paperless.c.rbnu.nl
+        description: Documentenbeheer
+        container: paperless-web
+    - Kimai:
+        icon: kimai.png
+        href: https://kimai.c.rbnu.nl
+        description: Urenregistratie
+        container: kimai-1
+    - Wakapi:
+        icon: wakapi.png
+        href: https://wakapi.c.rbnu.nl
+        description: Codeerstatistieken
+        container: wakapi-wakapi-1
+    - Stirling-PDF:
+        icon: pdf.png
+        href: https://stirling.c.rbnu.nl
+        description: PDF tools
+        container: stirling-pdf
+    - Picoshare:
+        icon: picoshare.png
+        href: https://pico.c.rbnu.nl
+        description: File sharing
+        container: picoshare
+    - ArchiveBox:
+        icon: archivebox.png
+        href: https://archivebox.c.rbnu.nl
+        description: Web archiving
+        container: archivebox
