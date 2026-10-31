@@ -1,0 +1,11 @@
+services:
+  picoshare:
+    image: mtlynch/picoshare
+    restart: unless-stopped
+    ports:
+      - "3200:3200"
+    environment:
+      - PORT=3200
+      - PS_SHARED_SECRET=${PS_SHARED_SECRET}
+    volumes:
+      - ./data:/data
