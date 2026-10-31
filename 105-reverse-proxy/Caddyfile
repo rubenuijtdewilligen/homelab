@@ -17,3 +17,7 @@ pdf.c.rbnu.nl {
 kimai.c.rbnu.nl {
     reverse_proxy 192.168.1.16:8001
 }
+
+wakapi.c.rbnu.nl {
+    reverse_proxy 192.168.1.16:3003
+}
