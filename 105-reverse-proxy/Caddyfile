@@ -5,3 +5,7 @@ archivebox.c.rbnu.nl {
 picoshare.c.rbnu.nl {
     reverse_proxy 192.168.1.16:3200
 }
+
+paperless.c.rbnu.nl {
+    reverse_proxy 192.168.1.16:8002
+}
