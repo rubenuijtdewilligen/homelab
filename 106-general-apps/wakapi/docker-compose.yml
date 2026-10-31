@@ -3,7 +3,7 @@ services:
     image: ghcr.io/muety/wakapi:latest
     restart: unless-stopped
     ports:
-      - "3003:3030"
+      - "3003:3000"
     environment:
       WAKAPI_DB_TYPE: "postgres"
       WAKAPI_DB_NAME: "wakapi"
