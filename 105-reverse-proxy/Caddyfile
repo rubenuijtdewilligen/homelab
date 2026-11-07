@@ -25,3 +25,7 @@ wakapi.c.rbnu.nl {
 home.c.rbnu.nl {
     reverse_proxy 192.168.1.16:3004
 }
+
+nextcloud.c.rbnu.nl {
+    reverse_proxy 192.168.1.14:8080
+}
