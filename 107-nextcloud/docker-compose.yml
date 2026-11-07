@@ -26,7 +26,7 @@ services:
       - POSTGRES_HOST=db
       - POSTGRES_DB=nextcloud
       - POSTGRES_USER=nextcloud
-      - POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
       - REDIS_HOST=redis
     volumes:
       - nextcloud-data:/var/www/html
