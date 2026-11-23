@@ -29,3 +29,7 @@ home.c.rbnu.nl {
 nextcloud.c.rbnu.nl {
     reverse_proxy 192.168.1.14:8080
 }
+
+bugsink.c.rbnu.nl {
+    reverse_proxy 192.168.1.16:8003
+}
